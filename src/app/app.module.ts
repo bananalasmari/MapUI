@@ -14,11 +14,14 @@ import { CheckboxModule } from 'primeng/checkbox';
 
 import { MessageService } from 'primeng/api';
 import { FormsModule } from '@angular/forms';
+import {PasswordModule} from 'primeng/password';
+import { PasswordComponent } from './password/password.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GoogleMapComponent
+    GoogleMapComponent,
+    PasswordComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +32,8 @@ import { FormsModule } from '@angular/forms';
     FormsModule,
     ButtonModule,
     ToastModule,
-    CheckboxModule
+    CheckboxModule,
+    PasswordModule
   ],
   providers: [MessageService],
   bootstrap: [AppComponent]
