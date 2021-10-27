@@ -267,6 +267,7 @@ button:focus:not(:focus-visible) {
 
   .p-inputtext {
     width: 15rem;
+    height: 2rem;
   }
 
 
